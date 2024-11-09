@@ -1,0 +1,94 @@
+* {
+    background-color: #7A82AB;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.container {
+    text-align: center; /* Центрирует содержимое внутри контейнера */
+}
+
+.image {
+    width: 162px;
+    height: 148px;
+    border-radius: 34px;
+    margin-bottom: 20px;/* Отступ снизу для отделения от кнопок */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column; /* Расположение кнопок в столбик */
+    align-items: center; /* Центрирует кнопки */
+    gap: 10px; /* Расстояние между кнопками */
+}
+
+.button-item, .button1 {
+    width: 206px;
+    height: 56px; 
+    border-radius: 25px;
+    background-color: #307473;
+    border: none;
+    margin-bottom: 12px;
+    color: #2DC2BD;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    transition: all 500ms ease;
+}
+
+.button1 {
+    width: 288px;
+    height: 39px;
+    font-size: 18px;
+    background-color: #D9D9D9; 
+    transition: all 500ms ease;
+}
+
+.button-item:hover {
+    transform: scale(1.1);
+}
+
+.button1:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    text-align: center;
+    position: fixed;
+    
+    bottom: 5px; /* Расположение футера от нижней части страницы */
+    left: 50%; /* Смещение влево на 50% */
+    transform: translateX(-50%); /* Центрирование по горизонтали */
+}
+
+.footer-creator {
+    font-size: 32px;
+    font-weight: 800;
+    color: #2DC2BD;
+    
+}
+
+.footer-noff, a {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.3); /* Полупрозрачный белый цвет для текста "не офф" */
+    margin-top: -22px; /* Регулировка отступа для более компактного размещения */
+    text-decoration: none;
+}
+
+.ost {
+    margin-top: auto;
+    padding: 50px;
+}
